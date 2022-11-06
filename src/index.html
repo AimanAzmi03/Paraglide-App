@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+  </head>
+
+  <body>
+
+    <!----------------------------------NAVIGATION BAR------------------------------------------>
+
+    <ul>
+      <li style="margin-left: 30px; cursor: pointer;"><a href="paraglide.html"><img src="image/back.png" style="height: 60px; width: 60px;"></a></li>
+      <a href="#" onclick="self.close();"><img src="image/close.png" style="height: 60px; width: 60px; margin-left: 1300px; margin-top: 10px;"></a>
+    </ul>
+
+    <!----------------------------------NOTE FORM SECTION--------------------------------------->
+
+    <div class="mainWrapper">
+    
+      <h1>Make Your Note Here</h1>
+
+      <form>
+
+        <div class="form-group">
+          <label>File name</label>
+          <input id="fileName" type="text" class="form-control" placeholder="Beranang.txt">
+        </div>
+
+        <div class="form-group">
+          <label>Content</label>
+          <textarea id="fileContents" class="form-control" rows="5" placeholder="31.19°C, Moderate Rain, Humidity: 72%, Wind speed: 1.86 mph, Wind deg: 226°, Wind gust: 2.4mph"></textarea>
+        </div>
+
+      </form>
+
+      <!-------------------------------NOTE FORM SECTION END------------------------------------>
+
+      <!--------------------------------BUTTON SECTION START------------------------------------>
+
+      <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+
+      <!---------------------------------BUTTON SECTION END-------------------------------------->
+
+    </div>
+    
+    <script src="main.js">  </script>
+
+  </body>
+</html>
+

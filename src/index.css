@@ -1,0 +1,71 @@
+body{
+  background-image: url(image/background.png);
+  background-size: cover;
+}
+
+.mainWrapper h1{
+  color: orange;
+  margin-left: 520px;
+}
+
+.mainWrapper{
+  margin: 80px;
+  margin-top: 30px;
+}
+
+input{
+  opacity: 50%;
+}
+
+textarea{
+  opacity: 50%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+.form-group label{
+  color: white;
+  font-size: 20px;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#btnCreate{
+  margin-left: 500px;
+  height: 40px;
+  width: 80px;
+  font-size: 10px;
+}
+
+#btnRead{
+  height: 40px;
+  width: 80px;
+}
+
+#btnDelete{
+  height: 40px;
+  width: 80px;
+}
+
+#btnUpdate{
+  height: 40px;
+  width: 80px;
+}
+

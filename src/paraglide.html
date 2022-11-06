@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App For Paraglide</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="paraglide.css" />
+</head>
+
+<body>
+
+  <!------------------------------- NAVIGATION BAR ------------------------------------------>
+
+  <ul>
+    <li><a href="index.html"><img src="image/note.png" style="height: 60px; width: 60px; margin-left: 30px;"></a></li>
+    <li><a href="#" onclick="self.close();"><img src="image/close.png" style="height: 60px; width: 60px; margin-left: 1300px;"></a></li>
+  </ul>
+  
+  <!--------------------------------WEATHER SUGGESTION---------------------------------------->
+
+  <div class="content">
+    <h1>SAFE PARAGLIDE</h1>
+    <p>Our suggestion about weather in Malaysia if you want to paraglide</p>
+    <li>Ideal wind between 2 and 15mph, wind speed above 18mph (29km/h) isn’t suitable for paragliding.</li>
+    <li>If wind speed changes more than 2 m/s in two minute period, it’s gusty so not suitable for paragliding.</li><br>
+    <li>Rain and Strom Clouds is extremely dangerous for paraglide.</li>
+    <li>Make sure the wind direction is from the suitable degree.</li>
+  </div>
+
+  <!--------------------------------INFORMATION SECTION--------------------------------------->
+
+
+    <!--------------------------------WEATHER INFORMATION END---------------------------------->
+
+  </div>
+
+  <div class="card1">
+
+    <h1>Place to Paraglide</h1>
+
+    <div class="card3">
+      <h2>Malaysia:</h2>
+      <p>Bukit Bubus, Terengganu</p>
+      <p>Pedas, Negeri Sembilan</p>
+      <p>Bahau, Negeri Sembilan</p>
+    </div>
+
+    <div class="card4">
+    <h2>Outside Malaysia:</h2>
+      <p>Queenstown, New Zealand</p>
+      <p>Ölüdeniz, Turkey</p>
+      <p>Umbria, Italy</p>
+    </div>
+
+  </div>
+
+  <div class="card">
+  
+    <!--------------------------------SEARCH SECTION------------------------------------------>
+
+    <div class="search">
+      <input type="text" class="search-bar" placeholder="Search for city to paraglide">
+      <button>SEARCH</button>
+    </div>
+
+    <!--------------------------------SEARCH SECTION END--------------------------------------->
+
+    <!---------------------------- WEATHER INFORMATION START----------------------------------->
+
+    <div class="weather loading">
+      <h2 class="city">Weather in Beranang, MY</h2>
+      <h1 style="display: flex; align-items: center; justify-content: center;" class="temp">32°C</h1>
+
+      <div style="display: flex; align-items: center; justify-content: center;" class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+        <div class="description">Cloudy</div>
+      </div>
+
+      <div style="display: flex; align-items: center; justify-content: center;" class="humidity">Humidity: 78%</div>
+      <div style="display: flex; align-items: center; justify-content: center;" class="wind">Wind speed: 1.02 mph</div>
+      <div style="display: flex; align-items: center; justify-content: center;" class="deg">Wind Degree: 338°</div>
+      <div style="display: flex; align-items: center; justify-content: center;" class="gust">Wind gust: 2 mph</div>
+    </div>
+</body>
+
+<script src="paraglide.js"></script>
+
+</html>
